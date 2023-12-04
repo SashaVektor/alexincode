@@ -1,0 +1,85 @@
+{
+    "home": {
+        "firstTitle": "Shape your online journey",
+        "secondTitle": "Own their interest",
+        "mainText": "Embrace the digital age, bring your business into the digital realm",
+        "buttonText": "Get a free consultation"
+    },
+    "wrapper": {
+        "name": "Alex",
+        "text": "ALL RIGHTS RESERVED"
+    },
+    "header": {
+        "home": "home",
+        "about": "about",
+        "services": "services",
+        "works": "works",
+        "skills": "skills",
+        "contacts": "contacts",
+        "call": "Book a call"
+    },
+    "about": {
+        "firstTitle": "I creating websites",
+        "secondTitle": "that charm and ignite inspiration.",
+        "mainText": "Hi! I'm Alex, a web developer based in Poltava, Ukraine. I specialize in crafting websites of various complexities, ensuring seamless user experiences for businesses and individuals alike.",
+        "button1Text": "Book a call",
+        "button2Text": "Download CV"
+    },
+    "services": {
+        "firstTitle": "Services",
+        "secondTitle": "Building digital solutions, one website per problem.",
+        "title1": "What I can do for you",
+        "title2": "Applications I'm fluent in",
+        "title3": "What you can expect",
+        "text1": "Tailored websites of various complexities, crafted just for you. Create faster, better products that resonate with your users.",
+        "text2": "Every web developer needs the right tools to do their job perfectly. Fortunately, I have the main ones.",
+        "text3": "Your website will be meticulously crafted, considering the distinctive features of your business",
+        "point1": "Development of customized websites, taking into account all client needs.",
+        "point2": "Ensuring fast loading and efficient website performance.",
+        "point3": "Provide technical support, updates and regular maintenance of the website.",
+        "point4": "Code Editor - Visual Studio Code",
+        "point5": "Frameworks and libraries - React",
+        "point6": "Optimization and debugging tools - Chrome Developer Tools",
+        "point7": "Website will be crafted considering the unique features of your business",
+        "point8": "Website will be optimized for use on different devices",
+        "point9": "I'll provide tech support and address any questions or needs"
+    },
+    "works" : {
+        "firstTitle": "My Works",
+        "secondTitle": "My portfolio includes a number of projects that clearly demonstrate my skills and experience in web development. Each project is accompanied by a brief description and a link to a live demo. This is an ideal way to get acquainted with my ability to solve various technical problems, work with different technologies, and manage projects effectively.",
+        "descr1": "StroySet is your reliable supplier of building materials throughout Ukraine. We offer a wide range of quality materials for construction.",
+        "descr2": "QuestTasker - your personal assistant for task creation, note management, sorting, and document storage. A simple and effective way to organize your life.",
+        "descr3": "Savor Slice Hub is your personal assistant in creating, organizing, and achieving tasks. A simple and effective way to organize your life with delicious pizzas!"
+    },
+    "skills": {
+        "title": "Skills & Expierience",
+        "skill1": "Web Development",
+        "skill2": "Adaptive Layout",
+        "skill3": "Continuous Support",
+        "skill4": "Content Creation",
+        "expTitle1": "Education",
+        "expTitle2": "Savor Slice Hub Development",
+        "expTitle3": "Commertial Project (StroySet)",
+        "expTitle4": "QuestTasker Development",
+        "expText1": "Started training at the end of 2021. In 2022, stubbornly learned the main technologies. Wrote more than 20 training projects and 3 commercial projects, which allowed in-depth study of technology, gaining the necessary experience to write projects. You can see them on my github account.",
+        "expText2": "As a result of the work, a functional application was created, which has a convenient and understandable interface. Thoughtful functionality will allow people to quickly order their favorite food. The admin panel will allow you to administer orders and manage products.",
+        "expText3": "The work was carried out in a team of two people (github). In the stack we used ReactJS, Redux Toolkit and TailwindCSS. To write the server I used NodeJS, ExpressJS and MongoDB. As a result, a multifunctional website was written, as well as a secure admin panel for actions with goods and orders were developed.",
+        "expText4": "The main idea of ​​the project was to make people's lives easier and free up part of their memory by transferring it to a multifunctional notebook. As a result, users received a multifunctional program with which they can save their files, set and perform tasks, as well as record their brilliant ideas in the note manager.",
+        "expDate1": "November 2021 - March 2023",
+        "expDate2": "April 2023 - June 2023",
+        "expDate3": "June 2023 - September 2023",
+        "expDate4": "October 2023 - November 2023"
+    },
+    "contacts" : {
+        "title": "Ready to bring your ideas to life?",
+        "name": "Name",
+        "email": "Email",
+        "descr": "Additional comment",
+        "button": "Send",
+        "formTitle": "Book a consultation"
+    },
+    "modal": {
+        "title": "Website? Ask Me!",
+        "message": "Thank you. I will get back to you as soon as posible!"
+    }
+}
