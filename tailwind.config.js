@@ -12,7 +12,7 @@ export default {
         "gold": "#FFA84B",
         "green": "#0FC65C",
         "azure": "#00C4F0",
-        "textgray": "#707070",
+        "textgray": "#969696",
       },
       fontFamily: {
       }

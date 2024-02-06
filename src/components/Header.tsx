@@ -38,6 +38,7 @@ const Header = () => {
                         <button
                             className="block lg:hidden"
                             onClick={() => dispatch(setIsMobileMenuModalOpen())}
+                            aria-label="Mobile menu button"
                         >
                             <RxHamburgerMenu size={28} className="text-white hover:text-textgray transition" />
                         </button>
@@ -52,11 +53,13 @@ const Header = () => {
                     <nav className="xl:mr-16 hidden lg:block">
                         <ul className="flex items-center gap-10">
                             {headerLinks.map((link, i) => (
-                                <a key={i} href={`#${link}`.replace("header.", "")}>
-                                    <p className="text-textgray font-medium text-xl hover:text-blue transition-all first-letter:uppercase duration-300">
-                                        {t(link)}
-                                    </p>
-                                </a>
+                                <li key={i}>
+                                    <a href={`#${link}`.replace("header.", "")}>
+                                        <p className="text-textgray font-medium text-xl hover:text-blue transition-all first-letter:uppercase duration-300">
+                                            {t(link)}
+                                        </p>
+                                    </a>
+                                </li>
                             ))}
                         </ul>
                     </nav>
@@ -90,6 +93,7 @@ const Header = () => {
                     <button
                         className='flex items-center gap-2 lg:hidden bg-transparent border-2 border-blue p-2 sm:px-3 sm:py-1 rounded-lg text-white hover:bg-blue transition duration-300'
                         onClick={() => dispatch(setIsContactModalOpen())}
+                        aria-label="Call button"
                     >
                         <MdAddIcCall size={18} className="text-white" />
                         <p className="hidden sm:block">{t("header.call")}</p>

@@ -31,16 +31,17 @@ const MobileMenuModal = () => {
             <div className='flex flex-col bg-black py-3 sm:py-5 w-[250px] h-[100dvh] overflow-y-auto overflow-x-hidden scrollbar-w-2 scrollbar-track-yellow-lighter scrollbar-thumb-yellow scrollbar-thumb-rounded'>
                 <div className="flex justify-between items-center mb-7 px-6">
                     <div className="flex items-center gap-2 text-lg text-white">
-                        <button 
-                        className={`${currentLanguage?.toUpperCase() === "EN" ? "font-bold" : "font-light"} hover:text-textgray transition`}
-                        onClick={() => changeLanguage("en")}
+                        <button
+                            className={`${currentLanguage?.toUpperCase() === "EN" ? "font-bold" : "font-light"} hover:text-textgray transition`}
+                            onClick={() => changeLanguage("en")}
                         >
                             EN
                         </button>
                         <span>/</span>
-                        <button 
-                        className={`${currentLanguage?.toUpperCase() === "UA" ? "font-bold" : "font-light"} hover:text-textgray transition`}
-                        onClick={() => changeLanguage("ua")}
+                        <button
+
+                            className={`${currentLanguage?.toUpperCase() === "UA" ? "font-bold" : "font-light"} hover:text-textgray transition`}
+                            onClick={() => changeLanguage("ua")}
                         >
                             UA
                         </button>
@@ -48,6 +49,7 @@ const MobileMenuModal = () => {
                     <button
                         className="text-white hover:text-blue transition w-fit"
                         onClick={() => dispatch(onClose())}
+                        aria-label="Close Button"
                     >
                         <RxCross1
                             size={24}
@@ -58,11 +60,13 @@ const MobileMenuModal = () => {
                     <nav>
                         <ul className="flex flex-col gap-5">
                             {headerLinks.map((link, i) => (
-                                <a key={i} href={`#${link}`.replace("header.", "")} onClick={() => dispatch(onClose())}>
-                                    <p className="font-medium text-xl hover:text-blue transition-all first-letter:uppercase duration-300">
-                                        {t(link)}
-                                    </p>
-                                </a>
+                                <li key={i}>
+                                    <a key={i} href={`#${link}`.replace("header.", "")} onClick={() => dispatch(onClose())}>
+                                        <p className="font-medium text-xl hover:text-blue transition-all first-letter:uppercase duration-300">
+                                            {t(link)}
+                                        </p>
+                                    </a>
+                                </li>
                             ))}
                         </ul>
                     </nav>

@@ -23,7 +23,10 @@ const ContactMenuModal = () => {
                 <h2 className='font-bold leading-tight text-white text-center text-2xl md:text-3xl lg:text-5xl mb-5'>
                     {t("modal.title")}
                 </h2>
-                <button onClick={() => dispatch(onClose())} className='hover:scale-125 transition duration-300 absolute top-2 right-2'>
+                <button onClick={() => dispatch(onClose())} 
+                className='hover:scale-125 transition duration-300 absolute top-2 right-2'
+                aria-label='Close button'
+                >
                     <RxCross1 className="text-2xl lg:text-3xl" />
                 </button>
                 <ContactsForm isModal />

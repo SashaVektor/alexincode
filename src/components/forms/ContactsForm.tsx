@@ -77,6 +77,7 @@ const ContactsForm = ({ isModal }: { isModal?: boolean }) => {
                 className="w-full bg-transparent border-2 border-textgray focus:outline-none focus:border-gold px-3 py-2 rounded-lg text-white md:text-lg lg:text-xl placeholder:text-textgray"
                 required
                 {...register("name")}
+                aria-label="User name"
             />
             <input
                 type="email"
@@ -84,6 +85,7 @@ const ContactsForm = ({ isModal }: { isModal?: boolean }) => {
                 className="w-full bg-transparent border-2 border-textgray focus:outline-none focus:border-gold px-3 py-2 rounded-lg text-white md:text-lg lg:text-xl placeholder:text-textgray"
                 required
                 {...register("email")}
+                aria-label="User email"
 
             />
             {isModal ? <PhoneInput
@@ -91,6 +93,7 @@ const ContactsForm = ({ isModal }: { isModal?: boolean }) => {
                 value={phone}
                 onChange={(phone) => setPhone(phone)}
                 hideDropdown
+                aria-label="Phone number"
                 style={{
                     width: "100%",
                     backgroundColor: "transparent",
@@ -121,6 +124,7 @@ const ContactsForm = ({ isModal }: { isModal?: boolean }) => {
                 className="w-full h-32 bg-transparent border-2 border-textgray focus:outline-none focus:border-gold px-3 py-2 rounded-lg text-white md:text-lg lg:text-xl placeholder:text-textgray resize-none"
                 required
                 {...register("description")}
+                aria-label="User description"
             />
             <button
                 className={`px-3 py-2 w-full ${isLoading ? "bg-transparent" : "bg-blue"} rounded-lg border-2 border-blue text-white hover:bg-transparent duration-300 transition disabled:cursor-not-allowed`}

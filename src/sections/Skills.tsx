@@ -47,9 +47,9 @@ const Skills = () => {
                                     className='w-1/2 h-1/2'
                                 />
                             </div>
-                            <h6 className='text-center text-white text-lg group-hover:text-gold transition duration-300'>
+                            <p className='text-center text-white text-lg group-hover:text-gold transition duration-300'>
                                 {knowledge.title}
-                            </h6>
+                            </p>
                         </motion.div>
                     </Tilt>
                 ))}

@@ -14,7 +14,7 @@ const Home = () => {
         <section className="flex-1 flex items-center justify-center pt-12 lg:pt-24">
             <div className="flex flex-col items-center gap-24 xl:gap-32">
                 <motion.div
-                    className=" sm:max-w-full flex flex-col items-center gap-1 sm:gap-3"
+                    className="flex flex-col items-center gap-1 sm:gap-3"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5, delay: 0.3}}
@@ -27,14 +27,14 @@ const Home = () => {
                     </h2>
                 </motion.div>
                 <div className="flex flex-col gap-5 lg:gap-7 xl:gap-10 items-center">
-                    <motion.h4
+                    <motion.p
                         className="font-medium text-xl lg:text-2xl xl:text-3xl max-w-[350px] sm:max-w-lg lg:max-w-xl text-center"
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.5, delay: 0.8 }}
                     >
                         {t('home.mainText')}
-                    </motion.h4>
+                    </motion.p>
                     <motion.button
                         className="block bg-blue py-3 px-5 border-2 border-blue rounded-lg text-white hover:bg-transparent transition duration-300"
                         initial={{ opacity: 0, scale: 1 }}
