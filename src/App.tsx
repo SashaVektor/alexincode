@@ -1,6 +1,6 @@
 import { Provider } from "react-redux"
 import Header from "./components/Header"
-import StarsCanvas from "./components/Stars"
+// import StarsCanvas from "./components/Stars"
 import About from "./sections/About"
 import Contacts from "./sections/Contacts"
 import Home from "./sections/Home"
