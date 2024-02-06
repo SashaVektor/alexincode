@@ -12,14 +12,14 @@ const Works = () => {
     return (
         <section className='flex flex-col items-center gap-6 lg:gap-10 pt-16 lg:pt-24'>
             <div className='flex flex-col items-center text-center max-w-5xl gap-1 lg:gap-3'>
-                <motion.h4
+                <motion.h5
                     className='text-xl lg:text-2xl font-bold text-gradient uppercase tracking-widest'
                     initial={{ opacity: notMobile ? 0 : 1, scale: notMobile ? 0 : 1 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: notMobile ? 0.5 : 0 }}
                 >
                     {t("works.firstTitle")}
-                </motion.h4>
+                </motion.h5>
                 <motion.p
                     className='text-lg lg:text-xl text-white leading-[1.3]'
                     initial={{ opacity: notMobile ? 0 : 1, scale: notMobile ? 0.5 : 1 }}

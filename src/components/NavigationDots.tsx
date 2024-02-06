@@ -19,6 +19,7 @@ const NavigationDots: FC<NavigationDotsProps> = ({ active }) => {
                 <a
                     href={`#${item}`.replace("header.", "")}
                     key={item + i}
+                    aria-label='navigation dot'
                     className={`${active === item .replace("header.", "") ? "bg-blue" : "bg-white"} w-3 h-3 rounded-full m-2 hover:bg-blue transition`}
 
                 />
